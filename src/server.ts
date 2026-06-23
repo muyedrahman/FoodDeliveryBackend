@@ -99,6 +99,9 @@ dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 5000;
+console.log(`FoodieAI backend running on http://localhost:${PORT}`);
+
+
 
 // Security & parsing middleware
 app.use(helmet());
